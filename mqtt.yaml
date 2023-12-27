@@ -1,8 +1,8 @@
 ---
 
 mqtt:
-  broker: !secret mqtt_host
-  username: !secret mqtt_username
-  password: !secret mqtt_password
+  broker: ${mqtt_host}
+  username: ${mqtt_username}
+  password: ${mqtt_passwor9d
 
 ...
