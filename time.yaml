@@ -1,0 +1,23 @@
+---
+
+time:
+  - platform: homeassistant
+    id: NTP
+#    timezone: "DE/Berlin"
+#    servers: "192.168.178.1"
+#    on_time:
+#      - seconds: 0
+#        minutes: 16
+#        hours: 15
+#        then:
+#          - display.page.show: page1
+#          - component.update: OLED
+#      - seconds: 0
+#        minutes: 10
+#        hours: 15
+#        then:
+#          - display.page.show: page2
+#          - component.update: OLED
+
+
+...

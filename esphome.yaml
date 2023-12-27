@@ -1,0 +1,24 @@
+---
+
+esphome:
+  name: ${devicename}
+
+${platform}:
+  board: ${board}
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_encryption_key
+
+ota:
+  password: !secret ota_pass
+
+
+
+# Example configuration entry
+text_sensor:
+  - platform: version
+    name: "ESPHome Version"
+
+...

@@ -1,0 +1,8 @@
+---
+
+logger:
+  level: DEBUG
+  logs:
+    component: ERROR
+
+...
