@@ -1,0 +1,216 @@
+  - platform: remote_receiver
+    name:  Pioneer Stop
+    pioneer:
+      rc_code_1:  0xC598
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Next
+    pioneer:
+      rc_code_1:  0xC59C
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Previous
+    pioneer:
+      rc_code_1:  0xC59D
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Start
+    pioneer:
+      rc_code_1:  0xC59E
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Pause
+    pioneer:
+      rc_code_1:  0xC59F
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Subtitle
+    pioneer:
+      rc_code_1:  0xF536
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Zoom
+    pioneer:
+      rc_code_1:  0xF537
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Surround
+    pioneer:
+      rc_code_1:  0xF561
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Left
+    pioneer:
+      rc_code_1:  0xF563
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Right
+    pioneer:
+      rc_code_1:  0xF564
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Play Mode
+    pioneer:
+      rc_code_1:  0xF57F
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 0
+    pioneer:
+      rc_code_1:  0xF5A0
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 1
+    pioneer:
+      rc_code_1:  0xF5A1
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 2
+    pioneer:
+      rc_code_1:  0xF5A2
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 3
+    pioneer:
+      rc_code_1:  0xF5A3
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 4
+    pioneer:
+      rc_code_1:  0xF5A4
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 5
+    pioneer:
+      rc_code_1:  0xF5A5
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 6
+    pioneer:
+      rc_code_1:  0xF5A6
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 7
+    pioneer:
+      rc_code_1:  0xF5A7
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 8
+    pioneer:
+      rc_code_1:  0xF5A8
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer 9
+    pioneer:
+      rc_code_1:  0xF5A9
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Setup
+    pioneer:
+      rc_code_1:  0xF5B0
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Top
+    pioneer:
+      rc_code_1:  0xF5B4
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Angle
+    pioneer:
+      rc_code_1:  0xF5B5
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Open
+    pioneer:
+      rc_code_1:  0xF5B6
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Menu
+    pioneer:
+      rc_code_1:  0xF5B9
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Power
+    pioneer:
+      rc_code_1:  0xF5BC
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Audio
+    pioneer:
+      rc_code_1:  0xF5BE
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Display
+    pioneer:
+      rc_code_1:  0xF5E3
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Clear
+    pioneer:
+      rc_code_1:  0xF5E5
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Forward
+    pioneer:
+      rc_code_1:  0xF5E9
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Reverse
+    pioneer:
+      rc_code_1:  0xF5EA
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Enter
+    pioneer:
+      rc_code_1:  0xF5EF
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Up
+    pioneer:
+      rc_code_1:  0xF5F2
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Down
+    pioneer:
+      rc_code_1:  0xF5F3
+    filters: 
+      - delayed_off: 50ms
+  - platform: remote_receiver
+    name:  Pioneer Return
+    pioneer:
+      rc_code_1:  0xF5F4
+    filters: 
+      - delayed_off: 50ms

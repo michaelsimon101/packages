@@ -1,0 +1,19 @@
+---
+
+esp32:
+  board: ${board}
+  framework:
+    type: arduino
+
+
+i2c:
+   - id: bus_b
+     sda: GPIO32
+     scl: GPIO33
+     scan: True
+   - id: bus_a
+     sda: GPIO21
+     scl: GPIO22
+     scan: True
+    
+...

@@ -1,0 +1,27 @@
+---
+
+select:
+  - platform: template
+    id: roomSelect
+    name: "Raum"
+    optimistic: true
+    options:
+      - Dachboden
+      - Schlafzimmer
+      - Flur
+      - Arbeitszimmer
+      - Badezimmer
+      - Treppe
+      - Wohnzimmer
+      - Esszimmer
+      - Kueche
+      - Garten
+      - Schuppen
+      - Keller
+      - Waschkueche
+      - Erdgeschoss
+      - Obergeschoss
+    initial_option: ${room}
+    restore_value: false
+
+...

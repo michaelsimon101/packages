@@ -1,0 +1,12 @@
+---
+platform: dht
+model: AM2302
+pin:
+  number: D7
+  inverted: False
+  mode: INPUT
+temperature:
+  name: "${upper_devicename} Temperature"
+humidity:
+  name: "${upper_devicename} Humidity"
+update_interval: 60s

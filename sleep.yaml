@@ -1,0 +1,18 @@
+---
+
+mqtt:
+  broker: 192.168.178.69
+  on_message:
+    - topic: ${devicename}/ota_mode
+      payload: 'ON'
+      then:
+        - deep_sleep.prevent: deep_sleep_1
+    - topic: ${devicename}/sleep_mode
+      payload: 'ON'
+      then:
+        - deep_sleep.enter: deep_sleep_1
+
+deep_sleep:
+  id: deep_sleep_1
+  run_duration: 50s
+  sleep_duration: 10min

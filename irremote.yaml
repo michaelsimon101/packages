@@ -1,0 +1,26 @@
+remote_receiver:
+  pin:
+    number: D5
+    inverted: True
+  dump: all
+
+
+binary_sensor:
+  - platform: remote_receiver
+    name: "SONY ONOFF"
+    sony:
+      data: 0x100BCBD 
+
+# Example configuration entry
+remote_transmitter:
+  pin: D6
+  carrier_duty_percent: 50%
+
+# Individual switches
+switch:
+  - platform: remote_transmitter
+    name: Sony TV Off
+    turn_on_action:
+      - remote_transmitter.transmit_sony:
+          nbits: 12
+          data: 0xA90

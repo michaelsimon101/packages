@@ -1,0 +1,10 @@
+---
+
+light:
+  - platform: status_led
+    name: "Blaue LED"
+    pin:
+      number: GPIO02
+      inverted: false
+
+...

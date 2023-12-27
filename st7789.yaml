@@ -1,0 +1,46 @@
+font:
+  - file: "BebasNeue Regular.ttf"
+    id: helvetica_48
+    size: 48
+  - file: "Arial.ttf"
+    id: helvetica_24
+    size: 14
+  - file: "Silkscreen.ttf"
+    id: helvetica_12
+    size: 8
+color:
+  - id: my_red
+    red: 100%
+    green: 0%
+    blue: 0%
+  - id: my_yellow
+    red: 100%
+    green: 100%
+    blue: 0%
+  - id: my_green
+    red: 0%
+    green: 100%
+    blue: 0%
+  - id: my_blue
+    red: 0%
+    green: 0%
+    blue: 100%
+  - id: my_gray
+    red: 50%
+    green: 50%
+    blue: 50%
+spi:
+  clk_pin: GPIO21
+  mosi_pin: GPIO19
+  miso_pin: GPIO22
+
+display:
+  - platform: st7789v
+    backlight_pin: GPIO2
+    cs_pin: GPIO12
+    dc_pin: GPIO15
+    reset_pin: GPIO02
+    rotation: 0
+    lambda: |-
+      it.rectangle(0,  0, 240, 240, id(my_blue));
+      it.rectangle(0, 20, 240, 240, id(my_blue));   // header bar
