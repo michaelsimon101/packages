@@ -9,10 +9,10 @@ ${platform}:
 # Enable Home Assistant API
 api:
   encryption:
-    key: !secret api_encryption_key
+    key: ${api_encryption_key}
 
 ota:
-  password: !secret ota_pass
+  password: ${ota_pass}
 
 
 
