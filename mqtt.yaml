@@ -3,6 +3,6 @@
 mqtt:
   broker: ${mqtt_host}
   username: ${mqtt_username}
-  password: ${mqtt_passwor9d
+  password: ${mqtt_password}
 
 ...
