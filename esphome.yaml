@@ -2,6 +2,7 @@
 
 esphome:
   name: ${devicename}
+  friendly-name: ${devicename}
 
 ${platform}:
   board: ${board}
