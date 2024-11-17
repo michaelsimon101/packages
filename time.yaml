@@ -3,7 +3,7 @@
 time:
   - platform: homeassistant
     id: NTP
-#    timezone: "DE/Berlin"
+    timezone: "Europe/Berlin"
 #    servers: "192.168.178.1"
 #    on_time:
 #      - seconds: 0
