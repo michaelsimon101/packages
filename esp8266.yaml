@@ -1,5 +1,9 @@
 ---
 
+esp8266:
+  board: ${board}
+  version: recommended
+
 light:
   - platform: status_led
     name: "Blaue LED"
