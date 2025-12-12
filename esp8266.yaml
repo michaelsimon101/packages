@@ -2,7 +2,8 @@
 
 esp8266:
   board: ${board}
-  version: recommended
+  framework:
+    version: recommended
 
 light:
   - platform: status_led
