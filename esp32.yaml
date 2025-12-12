@@ -3,7 +3,7 @@
 esp32:
   board: ${board}
   framework:
-    type: arduino
+    type: ${framework}
 
 
 i2c:
