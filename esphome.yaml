@@ -7,10 +7,10 @@ esphome:
   name: ${devicename}
   friendly_name: ${upper_devicename}
 
-${platform}:
-  board: ${board}
-  framework:
-    type: ${framework}
+#${platform}:
+#  board: ${board}
+#  framework:
+#    type: ${framework}
 
 # Enable Home Assistant API
 api:
