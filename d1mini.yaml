@@ -1,6 +1,14 @@
+---
+
+esp8266:
+  board: d1_mini
+  framework:
+    version: recommended
 light:
   - platform: status_led
     name: "Blaue LED"
     pin:
       number: GPIO02
       inverted: true
+
+...
